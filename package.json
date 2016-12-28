@@ -13,7 +13,12 @@
   "keywords": [
     "jquery-plugin",
     "ecosystem:jquery",
-    "gototop"
+    "gototop",
+    "page-scrolling",
+    "navigation",
+    "page-top",
+    "jump-to-top",
+    "scroll"
   ],
   "author": "Jaroslaw Wasilewski",
   "license": "MIT",
