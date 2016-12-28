@@ -1,0 +1,24 @@
+{
+  "name": "jquery-gototop-plugin",
+  "version": "1.0.0",
+  "description": "jQuery plugin which generates link to move to top of the current web page",
+  "main": "jquery.gototop.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Orajo/jquery-gototop-plugin.git"
+  },
+  "keywords": [
+    "jquery-plugin",
+    "ecosystem:jquery",
+    "gototop"
+  ],
+  "author": "Jaroslaw Wasilewski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Orajo/jquery-gototop-plugin/issues"
+  },
+  "homepage": "https://github.com/Orajo/jquery-gototop-plugin#readme"
+}

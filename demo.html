@@ -23,14 +23,26 @@
 </head>
 
 <body>
-	<div>
-		<a id="totopicon" href="#" class="fa-stack fa-lg">
-			<i class="fa fa-circle fa-stack-2x"></i>
-			<i class="fa fa-chevron-up fa-stack-1x fa-inverse" aria-hidden="true"></i>
-		</a>
-	</div>
+	<a id="totopicon" href="#" class="fa-stack fa-lg" title="Click to go to top of the page">
+		<i class="fa fa-circle fa-stack-2x"></i>
+		<i class="fa fa-chevron-up fa-stack-1x fa-inverse" aria-hidden="true"></i>
+		<i class="sr-only">Go to top</i>
+	</a>	
 	<script type="text/javascript">
 	$('#totopicon').gototop();
+	</script>
+	
+	<button class="gototop">Go to top</button>
+	<script type="text/javascript">
+	$('.gototop').gototop({
+		dist: 300,
+		css: {
+			top: '50px',
+			left: '30px',
+			right: null,
+			bottom: null,
+		}
+	});
 	</script>
 </body>
 </html>
