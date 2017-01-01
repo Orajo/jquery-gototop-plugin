@@ -32,10 +32,10 @@
 	$('#totopicon').gototop();
 	</script>
 	
-	<button class="gototop">Go to top</button>
+	<button class="gototop">Go to top (always visible)</button>
 	<script type="text/javascript">
 	$('.gototop').gototop({
-		dist: 300,
+		dist: 0, // use 0 for always visible link and > 0 if you want hide until scroll down some distance
 		css: {
 			top: '50px',
 			left: '30px',

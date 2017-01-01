@@ -5,7 +5,7 @@ This plugin is very simple to use and to adopt to your needs. Just create some l
 
 ## Configuration options
 
-*  dist (200) - Distance from top after link will shown 
+* dist (200) - Distance from top after link will shown; if 0 then link won't be hidden when page loads 
 * fadeInDelay (400) - Time to show link in ms
 * fadeOutDelay (400) - Time to hide link in ms
 * scrollSpeed (400) - Time to jump to top of the page in ms
