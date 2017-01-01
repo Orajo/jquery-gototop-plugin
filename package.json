@@ -1,6 +1,6 @@
 {
   "name": "jquery-gototop-plugin",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "jQuery plugin which generates link to move to top of the current web page",
   "main": "jquery.gototop.js",
   "scripts": {
