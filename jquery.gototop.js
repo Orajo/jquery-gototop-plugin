@@ -15,7 +15,7 @@
  *     }
  * });
  * 
- * @version 1.1.0
+ * @version 1.1.1
  * @see https://github.com/Orajo/jquery-gototop-plugin Home page
  * @see demo.html Demo page and example how to use it.
  * @see https://github.com/flesler/jquery.scrollTo
